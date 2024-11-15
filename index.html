@@ -5,35 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>My Portfolio</title>
+  <!-- Utilizzare un'altra versione di TypeIt -->
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  <script src="/path/to/typeit/source"></script>
 </head>
 <body>
-  <script src="script.js"></script>
 
   <!-- Navbar -->
   <nav id="navbar">
     <ul>
-      <li><a href="index.html">Welcome</a></li>
-      <li><a href="projects.html" >Projects</a></li>
-      <li><a href="profile.html" >Profile</a></li>
-      <li><a href="reseauxSociaux.html" >Réseaux Sociaux</a></li>
+      <li><a href="index.html" id="">Welcome</a></li>
+      <li><a href="projects.html" id="">Projects</a></li>
+      <li><a href="profile.html" id="">Profile</a></li>
+      <li><a href="reseauxSociaux.html" id="">Réseaux Sociaux</a></li>
     </ul>
   </nav>
 
   <!-- Welcome Section -->
   <section id="welcome-section">
-    <h1>Welcome to My Portfolio</h1>
+    <h1 id="welcome"></h1>
   </section> 
+
   <footer>
-    <p>
-      <!-- Begins the contact information paragraph -->
-      <address>
-          <!-- Begins the address element -->
-          <p>Maria Paola Mingrino</p>
-          <p>Tel: <a href="tel:0752029237">0752029237</a></p>
-          <p>Email: <a href="mariapaolamingrino88@gmail.com">mariapaolamingrino88@gmail.com</a></p>
-      </address>
-      <!-- Ends the address element -->
-  </p>
+    <address>
+      <p>Maria Paola Mingrino</p>
+      <p>Tel: <a href="tel:0752029237">0752029237</a></p>
+      <p>Email: <a href="mailto:mariapaolamingrino88@gmail.com">mariapaolamingrino88@gmail.com</a></p>
+    </address>
   </footer>
+
+  <!-- Includi lo script personalizzato dopo il contenuto -->
+  <script src="index.js"></script>
 </body>
 </html>
