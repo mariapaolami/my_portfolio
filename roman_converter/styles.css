@@ -1,0 +1,59 @@
+/* css work in progress*/
+/* Impostazioni globali */
+body {
+  background-color: #121212; /* Sfondo scuro */
+  color: #fff; /* Testo chiaro */
+  font-family: Arial, sans-serif; /* Font di base */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Altezza della finestra */
+}
+
+/* Stile per il titolo con effetto neon */
+h1 {
+  font-size: 3rem;
+  color: #39ff14; /* Colore verde neon */
+  text-shadow: 
+    0 0 5px #000000, 
+    0 0 10px #39ff10, 
+    0 0 15px #39ff11, 
+    0 0 20px #39ff12, 
+    0 0 25px #39ff13, 
+    0 0 30px #fefffe; /* Effetto neon luminoso */
+  margin-bottom: 20px;
+}
+
+/* Stile per il campo input e il bottone */
+input, button {
+  background-color: #333; /* Scuro */
+  border: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 1rem;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+input:focus, button:focus {
+  outline: none; /* Rimuove il contorno di focus */
+}
+
+button {
+  background-color: #39ff14; /* Colore neon per il bottone */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2bdb0f; /* Effetto hover */
+}
+
+/* Stile per il paragrafo di output */
+#output {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}

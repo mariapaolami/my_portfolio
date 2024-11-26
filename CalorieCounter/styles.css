@@ -1,0 +1,143 @@
+:root {
+    /* EN: Define color variables for the theme */
+    /* FR: Définir les variables de couleur pour le thème */
+    /* IT: Definire le variabili di colore per il tema */
+    --light-grey: #f5f6f7;
+    --dark-blue: #0a0a23;
+    --fcc-blue: #1b1b32;
+    --light-yellow: #ffabf5;
+    --dark-yellow: #940082;
+    --light-pink: #ffadad;
+    --dark-red: #850000;
+    --light-green: #acd157;
+  }
+  
+  body {
+    /* EN: Set the default font, font size, background color, and text color */
+    /* FR: Définir la police par défaut, la taille de police, la couleur de fond et la couleur du texte */
+    /* IT: Impostare il font predefinito, la dimensione del testo, il colore di sfondo e del testo */
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: var(--fcc-blue);
+    color: var(--light-grey);
+  }
+  
+  h1 {
+    /* EN: Center-align all h1 elements */
+    /* FR: Aligner au centre tous les éléments h1 */
+    /* IT: Allineare al centro tutti gli elementi h1 */
+    text-align: center;
+  }
+  
+  .container {
+    /* EN: Set a maximum width and responsive width for the container */
+    /* FR: Définir une largeur maximale et une largeur réactive pour le conteneur */
+    /* IT: Impostare una larghezza massima e reattiva per il contenitore */
+    width: 90%;
+    max-width: 680px;
+  }
+  
+  h1,
+  .container,
+  .output {
+    /* EN: Add margin for spacing */
+    /* FR: Ajouter une marge pour l'espacement */
+    /* IT: Aggiungere margine per distanziare */
+    margin: 20px auto;
+  }
+  
+  label,
+  legend {
+    /* EN: Make labels and legends bold */
+    /* FR: Mettre en gras les étiquettes et les légendes */
+    /* IT: Rendere le etichette e le leggende in grassetto */
+    font-weight: bold;
+  }
+  
+  .input-container {
+    /* EN: Arrange inputs in a vertical column */
+    /* FR: Organiser les entrées en colonne verticale */
+    /* IT: Disporre gli input in una colonna verticale */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    /* EN: Style buttons with custom background, border, and cursor */
+    /* FR: Styliser les boutons avec un fond, une bordure et un curseur personnalisés */
+    /* IT: Stile per i pulsanti con sfondo, bordo e cursore personalizzati */
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--light-yellow);
+    border: 2px solid var(--dark-yellow);
+  }
+  
+  .clear {
+    /* EN: Style the "clear" button with distinct colors */
+    /* FR: Styliser le bouton "effacer" avec des couleurs distinctes */
+    /* IT: Stilizzare il pulsante "clear" con colori distinti */
+    background-color: var(--light-pink);
+    color: var(--dark-red);
+    border-color: var(--dark-red);
+  }
+  
+  button,
+  input,
+  select {
+    /* EN: Set a minimum height for form elements and text color */
+    /* FR: Définir une hauteur minimale pour les éléments de formulaire et la couleur du texte */
+    /* IT: Impostare un'altezza minima per gli elementi del modulo e il colore del testo */
+    min-height: 24px;
+    color: var(--dark-blue);
+  }
+  
+  fieldset,
+  label,
+  button,
+  input,
+  select {
+    /* EN: Add margin below form elements */
+    /* FR: Ajouter une marge sous les éléments de formulaire */
+    /* IT: Aggiungere un margine sotto gli elementi del modulo */
+    margin-bottom: 10px;
+  }
+  
+  .output {
+    /* EN: Style the output box with a border, padding, and center alignment */
+    /* FR: Styliser la boîte de sortie avec une bordure, un remplissage et un alignement centré */
+    /* IT: Stilizzare il riquadro di output con un bordo, padding e allineamento centrale */
+    border: 2px solid var(--light-grey);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .hide {
+    /* EN: Hide elements with this class */
+    /* FR: Cacher les éléments avec cette classe */
+    /* IT: Nascondere gli elementi con questa classe */
+    display: none;
+  }
+  
+  .output span {
+    /* EN: Make text bold and larger in output spans */
+    /* FR: Mettre le texte en gras et plus grand dans les spans de sortie */
+    /* IT: Rendere il testo in grassetto e più grande nei <span> di output */
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .surplus {
+    /* EN: Style surplus values with light green color */
+    /* FR: Styliser les valeurs de surplus avec une couleur vert clair */
+    /* IT: Stilizzare i valori di surplus con il colore verde chiaro */
+    color: var(--light-green);
+  }
+  
+  .deficit {
+    /* EN: Style deficit values with light pink color */
+    /* FR: Styliser les valeurs de déficit avec une couleur rose clair */
+    /* IT: Stilizzare i valori di deficit con il colore rosa chiaro */
+    color: var(--light-pink);
+  }
+  

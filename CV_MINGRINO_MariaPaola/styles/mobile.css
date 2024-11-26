@@ -1,0 +1,108 @@
+@media screen and (min-width:400) and (max-width:800px) {
+     tr{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    td:last-of-type{
+        flex-basis: 100%;
+    }  
+    tr{
+        display: flex;
+        flex-wrap: wrap;
+        list-style-position: inside;
+    }
+    tr:last-of-type{
+        flex-basis: 100%;
+    }    
+ 
+body:last-of-type{
+    flex-basis: 100%;
+} 
+ul{
+    width: 100%;
+    position: relative;
+    padding-left: 0px;
+    margin-left: -100px;
+    overflow: inherit;
+} 
+li{
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: normal; 
+    
+}
+}
+body{
+    background-color: black;
+    color:aliceblue;
+    justify-content: center;
+} 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+.allignement{
+    display: flex;  
+}
+.allignement.span{
+    margin:auto 0;
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color:#ffffff;
+    text-shadow:0 0 10px #4c1d7a,
+                0 0 20px #9933ff,
+                0 0 30px #9933ff,
+                0 0 40px #9933ff, 
+                0 0 50px #9933ff,
+                0 0 60px #9933ff,
+                0 0 70px #9933ff,
+                0 0 80px #9933ff,
+                0 0 90px #9933ff,
+                0 0 100px #9933ff;
+}
+li{
+    position: relative;
+    left: 0;
+}
+
+h2{
+    color: #9933ff;
+    border: solid ;
+    font-family:'Courier New', Courier, monospace;
+    border-width: 1px;
+    text-align: center;
+    border-bottom: #9933ff;
+    border-style: dashed;
+}
+.accroche{
+    font-size: 25px;
+    color: rgb(165, 132, 207);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.position{
+    justify-content: end;
+    justify-items: center;
+    text-align: center;
+}
+
+img{
+    margin: 20px;
+    width: 100px;
+    justify-items: center;
+}
+.lien:hover{
+    justify-content: center;
+    border: 1px solid #4c1d7a;
+    box-shadow: 0 0 10px #4c1d7a,
+    0 0 20px #9933ff,
+    0 0 30px #9933ff,
+    0 0 40px #9933ff;
+    width: 10%;
+}
+

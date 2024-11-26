@@ -1,0 +1,165 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 10px #4c1d7a,
+               0 0 20px #9933ff,
+               0 0 30px #9933ff,
+               0 0 40px #9933ff, 
+               0 0 50px #9933ff,
+               0 0 60px #9933ff,
+               0 0 70px #9933ff,
+               0 0 80px #9933ff,
+               0 0 90px #9933ff,
+               0 0 100px #9933ff;
+  margin: 20px;
+  padding: 30px;
+}
+
+p {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #9933ff;
+}
+
+a:hover {
+  color: #ff33ff;
+}
+
+a:active {
+  color: #ff99ff;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+}
+
+#navbar {
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin: auto -10px;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#welcome-section {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+#projects {
+  margin: 20px;
+  padding: 20px;
+}
+
+.project-tile {
+  border: 1px solid #ccc;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  display: inline;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+#profile-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  height: 100%;
+}
+img{
+  margin: 20px;
+  width: 90px;
+  justify-items: center;
+   
+}
+.position{
+  justify-content: end;
+  justify-items: center;
+  text-align: center;
+}
+.lien:hover{
+  justify-content: center;
+  border: 1px solid #4c1d7a;
+  box-shadow: 0 0 10px #4c1d7a,
+  0 0 20px #9933ff,
+  0 0 30px #9933ff,
+  0 0 40px #9933ff;
+  width: 10%;
+}
+.shadow{
+  text-shadow: 0 0 10px #4c1d7a,
+  0 0 20px #9933ff,
+  0 0 30px #9933ff,
+  0 0 40px #9933ff;
+}
+.comp{
+  justify-content: center; 
+
+}
+.centre{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; 
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+      font-size: 14px;
+  }
+
+  #navbar ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #navbar li {
+      margin-bottom: 10px;
+  }
+}

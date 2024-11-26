@@ -1,0 +1,77 @@
+h1 {
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    color: #5f03a1;
+    background-color: #daa9fc;
+    border-style: double;
+    border-color: #5f03a1;
+    border-width: 2px;
+}
+
+h2 {
+    margin: 20px;
+    color: #daa9fc;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+div {
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    margin: 150px auto;
+    height: 500px;
+    width: 500px;
+    background-color: #000000;
+    border-style: double;
+    border-color: #5f03a1;
+    border-width: 10px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-top: 20px; /* Spazio tra la palla e l'input */
+    z-index: 1; /* Assicura che l'input sia visibile */
+    position: relative; /* Necessario per gestire correttamente il z-index */
+    padding: 10px;
+    width: 80%; /* Aumenta la larghezza se necessario */
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #daa9fc;
+    border: none;
+    color: #5f03a1;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+p {
+    color: #5f03a1;
+    background-color: #daa9fc;
+    border-style: double;
+    border-color: #5f03a1;
+    border-width: 2px;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 60%; /* Posizionato più in basso per non sovrapporsi al bordo */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    z-index: 1; /* Deve essere sopra il contenuto */
+}

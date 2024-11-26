@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Definizione del set di caratteri e configurazione per la visualizzazione sui dispositivi mobili -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Collegamento al foglio di stile CSS per la formattazione della pagina -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calorie Counter</title> <!-- Titolo della pagina -->
+  </head>
+  <body>
+    <main>
+      <!-- Titolo principale della pagina -->
+      <h1>Calorie Counter</h1>
+
+      <div class="container">
+        <!-- Form per inserire il budget calorico e le varie voci alimentari e di esercizio -->
+        <form id="calorie-counter">
+          
+          <!-- Etichetta e campo di input per il budget calorico giornaliero -->
+          <label for="budget">Budget</label>
+          <input
+            type="number"
+            min="0"
+            id="budget"
+            placeholder="Daily calorie budget"
+            required
+          />
+
+          <!-- Sezione per la colazione (Breakfast) -->
+          <fieldset id="breakfast">
+            <legend>Breakfast</legend> <!-- Legenda che descrive la sezione -->
+            <div class="input-container"></div> <!-- Contenitore per gli input relativi alla colazione -->
+          </fieldset>
+
+          <!-- Sezione per il pranzo (Lunch) -->
+          <fieldset id="lunch">
+            <legend>Lunch</legend>
+            <div class="input-container"></div> <!-- Contenitore per gli input relativi al pranzo -->
+          </fieldset>
+
+          <!-- Sezione per la cena (Dinner) -->
+          <fieldset id="dinner">
+            <legend>Dinner</legend>
+            <div class="input-container"></div> <!-- Contenitore per gli input relativi alla cena -->
+          </fieldset>
+
+          <!-- Sezione per gli snack (Snacks) -->
+          <fieldset id="snacks">
+            <legend>Snacks</legend>
+            <div class="input-container"></div> <!-- Contenitore per gli input relativi agli snack -->
+          </fieldset>
+
+          <!-- Sezione per l'esercizio fisico (Exercise) -->
+          <fieldset id="exercise">
+            <legend>Exercise</legend>
+            <div class="input-container"></div> <!-- Contenitore per gli input relativi all'esercizio -->
+          </fieldset>
+
+          <!-- Controlli per aggiungere un alimento o esercizio -->
+          <div class="controls">
+            <span>
+              <!-- Etichetta e selettore per scegliere dove aggiungere l'alimento o l'esercizio -->
+              <label for="entry-dropdown">Add food or exercise:</label>
+              <select id="entry-dropdown" name="options">
+                <!-- Opzioni per scegliere colazione, pranzo, cena, snack o esercizio -->
+                <option value="breakfast" selected>Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="snacks">Snacks</option>
+                <option value="exercise">Exercise</option>
+              </select>
+              <button type="button" id="add-entry">Add Entry</button> <!-- Bottone per aggiungere un alimento/esercizio -->
+            </span>
+          </div>
+
+          <!-- Bottone per calcolare le calorie rimanenti e per resettare il form -->
+          <div>
+            <button type="submit" id="calculate-calories">
+              Calculate Remaining Calories
+            </button>
+            <button type="button" id="clear">Clear</button> <!-- Bottone per svuotare il form -->
+          </div>
+        </form>
+
+        <!-- Contenitore per visualizzare i risultati -->
+        <div id="output" class="output hide"></div>
+      </div>
+    </main>
+
+    <!-- Collegamento al file JavaScript per la funzionalità -->
+    <script src="./script.js"></script>
+  </body>
+</html>
