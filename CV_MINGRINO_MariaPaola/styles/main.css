@@ -1,142 +1,170 @@
+/* Italiano: Stili per l'icona delle fonti simboliche Material */
 .material-symbols-outlined {
-        font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48
-      }
+    font-variation-settings:
+        'FILL' 0,  /* Disattiva il riempimento */
+        'wght' 400, /* Imposta il peso del font a 400 */
+        'GRAD' 0,   /* Imposta la gradazione del font a 0 */
+        'opsz' 48;  /* Imposta la dimensione del font a 48 */
+}
 
-body{
-    background-color: black;
-    color:aliceblue;
-    margin: 0px;     
-} 
-.allignement{
-    display: flex;
-  
+/* English: Basic body styles for background color, text color, and margins */
+body {
+    background-color: black; /* Set background to black */
+    color: aliceblue; /* Set text color to aliceblue */
+    margin: 0px; /* Remove default margin */
 }
-.acc{
-    padding:20px;
-}
-.titre{
-    margin-left: 20px;
-}
-.contacts{
-    margin: 20px;
-}
-.allignement.span{
-    margin:auto 0;
-   
-}
-details{
-    background-color: #9933ff;
-    border: 2px solid #4c1d7a;
-}
-h1{
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    color:#ffffff;
-    text-shadow:0 0 10px #4c1d7a,
-                0 0 20px #9933ff,
-                0 0 30px #9933ff,
-                0 0 40px #9933ff, 
-                0 0 50px #9933ff,
-                0 0 60px #9933ff,
-                0 0 70px #9933ff,
-                0 0 80px #9933ff,
-                0 0 90px #9933ff,
-                0 0 100px #9933ff;
 
+/* Français : Définir l'alignement pour les éléments */
+.allignement {
+    display: flex; /* Utilise Flexbox pour l'alignement des éléments */
 }
-h2{
-    color: #000000;
-    border: solid 100%;
-    font-family:'Courier New', Courier, monospace;
+
+/* Italiano: Padding per l'elemento con la classe .acc */
+.acc {
+    padding: 20px; /* Aggiunge 20px di spazio interno */
+}
+
+/* English: Left margin for titles */
+.titre {
+    margin-left: 20px; /* Adds left margin of 20px */
+}
+
+/* Français : Définir une marge autour des éléments de contact */
+.contacts {
+    margin: 20px; /* Ajouter une marge de 20px autour de l'élément */
+}
+
+/* Italiano: Impostazioni per la visualizzazione di un elemento span */
+.allignement.span {
+    margin: auto 0; /* Centra verticalmente l'elemento span */
+}
+
+/* English: Define background color and border for details */
+details {
+    background-color: #9933ff; /* Background color is purple */
+    border: 2px solid #4c1d7a; /* Solid border with a different shade of purple */
+}
+
+/* Français : Stile per h1, con ombreggiatura del testo */
+h1 {
+    font-family: 'Orbitron', sans-serif; /* Set font to Orbitron */
+    text-align: center; /* Center the text */
+    color: #ffffff; /* Text color is white */
+    text-shadow: 0 0 10px #4c1d7a,
+                 0 0 20px #9933ff, /* Multiple shadows for a glowing effect */
+                 0 0 30px #9933ff,
+                 0 0 40px #9933ff,
+                 0 0 50px #9933ff,
+                 0 0 60px #9933ff,
+                 0 0 70px #9933ff,
+                 0 0 80px #9933ff,
+                 0 0 90px #9933ff,
+                 0 0 100px #9933ff;
+}
+
+/* Italiano: Stile per h2 con bordo e ombra */
+h2 {
+    color: #000000; /* Colore del testo nero */
+    border: solid 100%; /* Bordo solido con larghezza del 100% */
+    font-family: 'Courier New', Courier, monospace; /* Font monospace */
     border-width: 1px;
     text-align: center;
-    border-bottom: #000000;
-    border-style: dashed;
-    text-shadow:0 0 10px #4c1d7a,
+    border-bottom: #000000; /* Bordo inferiore nero */
+    border-style: dashed; /* Bordo tratteggiato */
+    text-shadow: 0 0 10px #4c1d7a,
     0 0 20px #9933ff,
     0 0 30px #9933ff,
-    0 0 40px #9933ff, 
+    0 0 40px #9933ff,
     0 0 50px #9933ff,
     0 0 60px #9933ff,
     0 0 70px #9933ff,
     0 0 80px #9933ff,
     0 0 90px #9933ff,
     0 0 100px #9933ff;
-
- 
 }
-h3{
-    color: rgb(165, 132, 207);
-    text-align: bottom; 
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    text-shadow:0 0 10px #4c1d7a,
+
+/* English: Set text color, alignment, and shadow for h3 */
+h3 {
+    color: rgb(165, 132, 207); /* Light purple color for text */
+    text-align: bottom; /* Aligns the text to the bottom */
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; /* Font family */
+    text-shadow: 0 0 10px #4c1d7a,
     0 0 20px #9933ff,
     0 0 30px #9933ff,
-    0 0 40px #9933ff, 
+    0 0 40px #9933ff,
     0 0 50px #9933ff,
     0 0 60px #9933ff,
     0 0 70px #9933ff,
     0 0 80px #9933ff,
     0 0 90px #9933ff,
     0 0 100px #9933ff;
-
-    
 }
-.accroche{
-    font-size: 25px;
-    color: rgb(165, 132, 207);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-}
-ul{
 
+/* Français : Accroche (slogan) stylisé */
+.accroche {
+    font-size: 25px; /* Taille du texte */
+    color: rgb(165, 132, 207); /* Couleur du texte en violet clair */
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; /* Police de caractères */
+}
+
+/* Italiano: Definisce uno stile per la lista non ordinata */
+ul {
     width: 100%;
     position: relative;
     padding-left: 100px;
     margin-left: -100px;
-    overflow: inherit;
-} 
-li{
-    color:azure;
-    font-family:Arial, Helvetica, sans-serif;
+    overflow: inherit; /* Permette che il contenuto non vada fuori dal contenitore */
+}
+
+/* English: List items styled with color and position */
+li {
+    color: azure; /* Set list item color to azure */
+    font-family: Arial, Helvetica, sans-serif; /* Font for list items */
     position: relative;
     left: 0;
 }
-img{
+
+/* Français : Styliser les images */
+img {
     margin: 20px;
-    width: 100px;
-    justify-items: center;
-     
+    width: 100px; /* Set image width */
+    justify-items: center; /* Center image horizontally */
 }
-.position{
+
+/* Italiano: Posizionamento degli elementi con testo centrato */
+.position {
     justify-content: end;
     justify-items: center;
     text-align: center;
 }
-.lien:hover{
+
+/* English: Hover effect for links */
+.lien:hover {
     justify-content: center;
-    border: 1px solid #4c1d7a;
+    border: 1px solid #4c1d7a; /* Border on hover */
     box-shadow: 0 0 10px #4c1d7a,
     0 0 20px #9933ff,
     0 0 30px #9933ff,
-    0 0 40px #9933ff;
-    width: 10%;
+    0 0 40px #9933ff; /* Shadow effect */
+    width: 10%; /* Reduce width on hover */
 }
-.shadow{
+
+/* Français : Ajout d'un effet de texte lumineux */
+.shadow {
     text-shadow: 0 0 10px #4c1d7a,
     0 0 20px #9933ff,
     0 0 30px #9933ff,
-    0 0 40px #9933ff;
+    0 0 40px #9933ff; /* Luminosity effect on text */
 }
-.comp{
-    justify-content: center; 
 
+/* Italiano: Aligner e centrare il contenuto */
+.comp {
+    justify-content: center; /* Allinea gli elementi al centro */
 }
-.centre{
+
+/* English: Center an element with auto margin */
+.centre {
     margin-left: auto;
     margin-right: auto;
-    width: 300px; 
+    width: 300px; /* Element width set to 300px */
 }
